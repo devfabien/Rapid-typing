@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(136, 104, 104);
+    justify-content: center;
+   align-content: center;
+   flex: 1;
+   text-align: center;
+   justify-self: center;
+
+}
+#time{
+    color: greenyellow;
+}
+#current-word{
+    color: white;
+    font-weight: bolder;
+    align-self: center;
+}
+#message{
+    color:greenyellow;
+    align-self: center;
+}
+.ti{
+    align-self: center;
+}
+.header{
+    background-color: aliceblue;
+    padding: 1px;
+    width: 16%;
+}
+#seconds{
+    color: greenyellow;
+}
+.ins{
+    background-color: aliceblue;
+    padding: 2px;
+    width: 65%;
+    justify-self: center;
+    text-align: center;
+    align-self: center;
+}
+#ins{
+    font-weight: "bold";
+}
+#score{
+    color: greenyellow;
+}
+#highscore{
+    color: greenyellow;
+}
+#word-input{
+    padding: 12px;
+    border-radius: 10px;
+}

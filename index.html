@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Rapid Typing</h1>
+    </header>
+    
+      <div class="container">
+    
+        <!-- Word & Input -->
+       
+        
+            <p >Type The Given Word Within
+              <span  id="seconds">5</span> Seconds:</p>
+            <h2  id="current-word">hello</h2>
+            <input type="text"  placeholder="Start typing..." id="word-input" autofocus>
+            <h4  id="message"></h4>
+    
+            <!-- Time & Score Columns -->
+            <div >
+              <div class="ti">
+                <h3>Time Left:
+                  <span id="time">0</span>
+                </h3>
+              </div>
+              <div >
+                <h3>Score:
+                  <span id="score">0</span>
+                </h3>
+              </div>
+              <br><br>
+              <div>
+                <h3>High Score:
+                  <span id="highscore">0</span>
+                </h3>
+              </div>
+            </div>
+    
+            <!-- Instructions -->
+        
+             
+                <div class="ins" >
+                  <h5 id="ins">Instructions</h5>
+                  <p>Type each word in the given amount of seconds to score. To play again, just type the current word. Your
+                    score
+                    will reset</p>
+                </div>
+             
+          
+        
+    
+      </div>
+     
+    
+      <script src="main.js"></script>
+</body>
+</html>
